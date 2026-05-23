@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
+plt.style.use('dark_background')
+
 G = 6.67430e-11  
 M = 5.972e24    
 dt = 60         
