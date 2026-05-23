@@ -29,7 +29,7 @@ x_earth = earth_radius * np.outer(np.cos(u), np.sin(v))
 y_earth = earth_radius * np.outer(np.sin(u), np.sin(v))
 z_earth = earth_radius * np.outer(np.ones(np.size(u)), np.cos(v))
 
-ax.plot_surface(x_earth, y_earth, z_earth, color='deepskyblue', alpha=0.8, edgecolor='blue', linewidth=0.3)
+ax.plot_surface(x_earth, y_earth, z_earth, color='violet', alpha=0.8, edgecolor='blue', linewidth=0.3)
 
 ax.set_xlim([-8000000, 8000000])
 ax.set_ylim([-8000000, 8000000])
